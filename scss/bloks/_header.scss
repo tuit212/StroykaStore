@@ -1,0 +1,41 @@
+.header-top{
+    background-color: #F6F6F6;
+    padding: 11px 0;
+}
+.header__top-link-span{
+    display: inline-block;
+    margin-left: 8px;
+    @include text (500 , 145% , 15px , #5d6066);
+}
+.eader__top-item-link{
+    @include text (500 , 145% , 15px , #5d6066);
+}
+.header__body-item-button{
+    margin-left: 114px;
+    background-color: #FCEC41;
+}
+.header__body-item-button-span{
+    @include text (500 , 136% , 18px ,  #171B24);
+}
+.header__body-item-input{
+    width: 444px;
+    padding: 11px 11px 10px 11px;
+    background: #F6F6F6;
+    border: none;
+    border-bottom: 1px solid #D1D1D3;
+}
+.header__body-item-input::placeholder{
+    @include text (500 , 136% , 18px ,  #8B8D92);
+}
+.fa-magnifying-glass{
+    right: 12px;
+    top: 12px;
+    font-size: 18px;
+    color: #5D6066;
+}
+.header__body-item-span{
+    @include text (500 , 145% , 15px , #454950);
+}
+.header__body-item > div {
+    cursor: pointer;
+}

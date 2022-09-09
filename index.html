@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- icons link-->
+    <link rel="shortcut icon" href="./img/Logo.svg" type="image/x-icon">
+    <!-- cdn icons link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- fonds link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- bootstrap css link-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- css link  -->
+    <link rel="stylesheet" href="./css/main.css">
+    <title>StroykaStore</title>
+</head>
+<body>
+    <!-- header starts-->
+    <header class="site-header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header__top d-flex align-items-center justify-content-between">
+                    <a class="header__top-link text-decoration-none d-flex align-items-center" href="#link">
+                        <img class="header__top-link-img " src="./img/locat.svg" alt="locat" width="20" height="20">
+                        <span class="header__top-link-span">Москва</span>
+                    </a>
+                    <ul class="header__top-list text-decoration-none d-flex align-items-center justify-content-between m-0 p-0 gap-4">
+                        <li class="header__top-item">
+                            <a class="eader__top-item-link text-decoration-none" href="#link">
+                                Бренды
+                            </a>
+                        </li>
+                        <li class="header__top-item">
+                            <a class="eader__top-item-link text-decoration-none" href="#link">
+                                Доставка
+                            </a>
+                        </li>
+                        <li class="header__top-item">
+                            <a class="eader__top-item-link text-decoration-none" href="#link">
+                                Возврат
+                            </a>
+                        </li>
+                        <li class="header__top-item">
+                            <a class="eader__top-item-link text-decoration-none" href="#link">
+                                Документация
+                            </a>
+                        </li>
+                        <li class="header__top-item">
+                            <a class="eader__top-item-link text-decoration-none" href="#link">
+                                Контакты
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header-body">
+            <div class="container">
+                <div class="header__body">
+                    <ul class="header__body-list p-0 d-flex align-items-center py-3">
+                        <li class="header__body-item">
+                            <a class="header__body-link d-inline-block" href="index.html">
+                                <img class="header__body-link-logo" src="./img/Logo.svg" alt="site logo" width="180" height="45">
+                            </a>
+                        </li>
+                        <li class="header__body-item">
+                            <button class="header__body-item-button d-flex align-items-center border-0      p-2" type="button" data-bs-toggle="modal" data-bs-target="#myModal" href="#link">
+                                <img class="header__body-item-button-img" src="./img/button.svg" alt="burger" width="24" height="24">
+                                <span class="header__body-item-button-span ms-3">Каталог</span>
+                            </button>
+                        </li>
+                        <li class="header__body-item position-relative ms-3">
+                            <input class="header__body-item-input " type="search" name="search" id="search" placeholder="Поиск">
+                            <i id="search" class="fa fa-magnifying-glass position-absolute"></i>
+                        </li>
+                        <li class="header__body-item d-flex align-items-center text-center gap-3 ms-3">
+                            <div>
+                                <img src="./img/user.svg" alt="user" width="24" height="24">
+                                <span class="header__body-item-span">Профиль</span>
+                            </div>
+                            <div>
+                                <img src="./img/zakaz.svg" alt="zakaz" width="24" height="24">
+                                <span class="header__body-item-span">Профиль</span>
+                            </div>
+                            <div>
+                                <img src="./img/korzina.svg" alt="korzina" width="24" height="24">
+                                <span class="header__body-item-span">Профиль</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header ends-->
+
+
+    <!-- modal stats -->
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <input type="text" class="form-control" placeholder="Поиск">
+                    <button type="button" data-bs-dismiss="modal">Поиск</button>
+                    <ul>
+                        <li>
+                            <a href="#link">
+                                telifon
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#link">
+                                telifon
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#link">
+                                telifon
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal ends -->
+    
+
+
+    <!-- js -->
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
