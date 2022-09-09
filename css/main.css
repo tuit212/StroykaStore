@@ -411,4 +411,8 @@ template {
 
 .header__body-item > div {
   cursor: pointer;
+}
+
+.modal {
+  width: 100vw;
 }/*# sourceMappingURL=main.css.map */
